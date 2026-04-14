@@ -1,0 +1,137 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: calibri, "segoe ui", arial, tahoma, sans-serif;
+}
+
+/* BODY */
+body{
+    background-color: #DDDDDD;
+}
+
+/* WRAPPER */
+#wrapper{
+    width: 780px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* HEADER */
+#header{
+    background: #232323;
+    padding: 20px;
+    overflow: hidden;
+}
+
+#header img{
+    float: left;
+}
+
+#menu-utama{
+    list-style: none;
+    float: left;
+    margin-left: 20px;
+}
+
+#menu-utama li{
+    float: left;
+}
+
+#menu-utama li a{
+    display: block;
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#menu-utama li a:hover{
+    background: #444;
+}
+
+/* SEARCH */
+#header form{
+    float: right;
+}
+
+#header input[type=text]{
+    padding: 5px;
+}
+
+/* CONTENT */
+#daftar-artikel{
+    width: 500px;
+    float: left;
+}
+
+.artikel{
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.artikel img{
+    float: left;
+    margin-right: 10px;
+}
+
+.artikel h1{
+    font-size: 20px;
+}
+
+.artikel b{
+    font-size: 12px;
+    color: #999;
+}
+
+.artikel p{
+    margin: 10px 0;
+}
+
+.artikel a{
+    display: inline-block;
+    padding: 5px 10px;
+    background: #232323;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* SIDEBAR */
+#sidebar{
+    width: 250px;
+    float: right;
+    background: #fff;
+    padding: 15px;
+}
+
+#sidebar h2{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#sidebar p{
+    margin-bottom: 15px;
+}
+
+#sidebar ul{
+    list-style: none;
+}
+
+#sidebar ul li{
+    margin-bottom: 5px;
+}
+
+#sidebar ul li a{
+    text-decoration: none;
+    color: #333;
+}
+
+/* FOOTER */
+#footer{
+    background: #232323;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+}
